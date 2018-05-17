@@ -1,12 +1,12 @@
 
 
-def fizzbuzz(int)
-  if (int % 3 == 0) && (int % 5 == 0)
+def fizzbuzz(num)
+if num % 3 == 0
+  "Fizz"
+elseif num % 5 == 0
+  "Buzz"
+elseif (num % 3 == 0) && (num % 5 == 0)
   "FizzBuzz"
-  elsif int % 3 == 0
-    "Fizz"
-  elsif int % 5 == 0
-    "Buzz"
-  else nil
-  end
+else nil
+end
 end
